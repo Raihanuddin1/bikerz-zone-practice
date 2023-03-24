@@ -1,0 +1,51 @@
+.bz-bg-color{
+    background-color: #264653;
+}
+.bz-hr-width{
+    width: 60px;
+}
+.bz-btn{
+    width: 120px;
+}
+.latest-news{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.happy-clients{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.bz-faq-title{
+    margin-top: 100px !important;
+}
+ul>li{
+    list-style: none;
+}
+.download{
+    margin-left: 30px;
+}
+
+
+
+
+
+/*----------------- media quiry sstyles ----------------*/
+
+@media screen and (max-width:576px) {
+   .footer-menu{
+    padding-left: 0px;
+    order: 1;
+   }
+    ul{
+        flex-wrap: wrap;
+    }
+    .bz-app{
+        margin-left: 10px;
+        order: 2;
+    }
+    .copyright{
+        order: 3;
+        margin-top: 40px;
+        text-align: center;
+    }
+}
